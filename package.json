@@ -1,11 +1,14 @@
 {
   "name": "v-filters",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of Vue.js filters",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "lint": "eslint '*/**/*.{js,ts}'",
-    "prepublish": "npm run lint && npm test"
+    "prepublish": "npm run lint && npm test && npm run build"
   },
   "repository": {
     "type": "git",

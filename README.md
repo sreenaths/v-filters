@@ -1,2 +1,3 @@
 # v-filters
-A collection of Vue.js filters 
+
+A collection of Vue.js filters.
